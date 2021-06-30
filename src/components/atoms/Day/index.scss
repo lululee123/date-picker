@@ -1,0 +1,33 @@
+.day {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 2px;
+    font-size: 13px;
+    cursor: pointer;
+
+    &.active {
+        color: #fff;
+        background-color: #db3d44;
+        border-radius: 50%;
+    }
+
+    &.inActive {
+        color: #eee;
+    }
+
+    &.today {
+        color: #db3d44;
+    }
+
+    &.normal {
+        color: #222;
+    }
+
+    &.bold {
+        color: #222;
+        font-weight: bold;
+    }
+}

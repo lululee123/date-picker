@@ -1,0 +1,28 @@
+.datePickerInput {
+    .calendarInput {
+        display: block;
+        width: 100%;
+        height: auto;
+        line-height: inherit;
+        padding: 5px 12px;
+        padding-left: 30px;
+        font-size: 13px;
+        color: #222222;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        outline: none;
+
+        &.calendarInputActive {
+            border-color: #0096cc;
+        }
+    }
+
+    .calendarIcon {
+        position: absolute;
+        left: 9px;
+        top: 6px;
+        width: 14px;
+        height: 14px;
+        padding: 0;
+    }
+}

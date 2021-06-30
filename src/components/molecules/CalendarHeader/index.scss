@@ -1,0 +1,23 @@
+.calendarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+
+    .text {
+        color: #222;
+        font-weight: bold;
+        font-size: 13px;
+        height: 20px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .arrow {
+        cursor: pointer;
+        
+        svg {
+            transform: scale(2);
+        }
+    }
+}
