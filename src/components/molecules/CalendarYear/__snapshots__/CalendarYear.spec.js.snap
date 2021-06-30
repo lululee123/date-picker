@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render CalendarYear correctly 1`] = `
+<div
+  className="calendarDay"
+>
+  <button
+    className="day year inActive"
+    onClick={[Function]}
+    type="button"
+  >
+    2020
+  </button>
+  <button
+    className="day year inActive"
+    onClick={[Function]}
+    type="button"
+  >
+    2022
+  </button>
+</div>
+`;

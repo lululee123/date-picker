@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render CalendarHeader correctly 1`] = `
+<div
+  className="calendarHeader"
+>
+  <button
+    className="icon arrow"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      height="13"
+      viewBox="0 0 12 13"
+      width="12"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0H8V8H0z"
+        fill="#FFF"
+        fillOpacity="0"
+        transform="translate(-1167 -1201) translate(991 1176) translate(170 20) translate(6 6) translate(2 2)"
+      />
+      <path
+        d="M2.085 3.788l2.847-2.9c.114-.117.298-.117.411 0l.172.178c.113.117.113.307 0 .424L3.043 4l2.47 2.51c.113.117.113.307 0 .424l-.172.178c-.114.117-.297.117-.411 0l-2.847-2.9c-.111-.117-.111-.307.002-.424z"
+        fill="#000"
+        fillRule="nonzero"
+        transform="translate(-1167 -1201) translate(991 1176) translate(170 20) translate(6 6) translate(2 2)"
+      />
+    </svg>
+  </button>
+  <button
+    className="text"
+    onClick={[Function]}
+    type="button"
+  >
+    
+  </button>
+  <button
+    className="icon arrow"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      height="13"
+      viewBox="0 0 12 13"
+      width="12"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0H8V8H0z"
+        fill="#FFF"
+        transform="translate(-1237 -1201) translate(991 1176) translate(170 20) translate(70) translate(6 6) translate(2 2)"
+      />
+      <path
+        d="M5.915 4.212l-2.847 2.9c-.114.117-.298.117-.411 0l-.172-.178c-.113-.117-.113-.307 0-.424L4.957 4l-2.47-2.51c-.113-.117-.113-.307 0-.424L2.66.888c.114-.117.297-.117.411 0l2.847 2.9c.111.117.111.307-.002.424z"
+        fill="#000"
+        transform="translate(-1237 -1201) translate(991 1176) translate(170 20) translate(70) translate(6 6) translate(2 2)"
+      />
+    </svg>
+  </button>
+</div>
+`;

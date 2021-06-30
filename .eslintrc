@@ -52,5 +52,16 @@
 				"specialLink": [],
 			"aspects": ["noHref", "invalidHref", "preferButton"]
 		}]
-	}
+	},
+	"overrides": [
+		{
+		  "files": [
+			"**/*.spec.js",
+			"**/*.spec.jsx"
+		  ],
+		  "env": {
+			"jest": true
+		  }
+		}
+	]
 }

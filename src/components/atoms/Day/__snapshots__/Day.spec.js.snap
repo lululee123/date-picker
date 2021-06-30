@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Day correctly 1`] = `
+<button
+  className="day normal"
+  onClick={[Function]}
+  type="button"
+>
+  
+</button>
+`;

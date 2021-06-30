@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Day from './index';
+import DatePickerInput from './index';
 
-test('render Day correctly', () => {
+test('render DatePickerInput correctly', () => {
 	const component = renderer
 		.create(
-			<Day />,
+			<DatePickerInput />,
 		)
 		.toJSON();
 	expect(component).toMatchSnapshot();

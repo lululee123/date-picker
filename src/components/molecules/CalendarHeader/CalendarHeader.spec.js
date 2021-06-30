@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Day from './index';
+import CalendarHeader from './index';
 
-test('render Day correctly', () => {
+test('render CalendarHeader correctly', () => {
 	const component = renderer
 		.create(
-			<Day />,
+			<CalendarHeader />,
 		)
 		.toJSON();
 	expect(component).toMatchSnapshot();

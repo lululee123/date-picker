@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Calendar correctly 1`] = `
+<div
+  className="calendar"
+>
+  <div
+    className="calendarHeader"
+  >
+    <button
+      className="icon arrow"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        height="13"
+        viewBox="0 0 12 13"
+        width="12"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0H8V8H0z"
+          fill="#FFF"
+          fillOpacity="0"
+          transform="translate(-1167 -1201) translate(991 1176) translate(170 20) translate(6 6) translate(2 2)"
+        />
+        <path
+          d="M2.085 3.788l2.847-2.9c.114-.117.298-.117.411 0l.172.178c.113.117.113.307 0 .424L3.043 4l2.47 2.51c.113.117.113.307 0 .424l-.172.178c-.114.117-.297.117-.411 0l-2.847-2.9c-.111-.117-.111-.307.002-.424z"
+          fill="#000"
+          fillRule="nonzero"
+          transform="translate(-1167 -1201) translate(991 1176) translate(170 20) translate(6 6) translate(2 2)"
+        />
+      </svg>
+    </button>
+    <button
+      className="text"
+      onClick={[Function]}
+      type="button"
+    >
+      Jul 2021
+    </button>
+    <button
+      className="icon arrow"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        height="13"
+        viewBox="0 0 12 13"
+        width="12"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0H8V8H0z"
+          fill="#FFF"
+          transform="translate(-1237 -1201) translate(991 1176) translate(170 20) translate(70) translate(6 6) translate(2 2)"
+        />
+        <path
+          d="M5.915 4.212l-2.847 2.9c-.114.117-.298.117-.411 0l-.172-.178c-.113-.117-.113-.307 0-.424L4.957 4l-2.47-2.51c-.113-.117-.113-.307 0-.424L2.66.888c.114-.117.297-.117.411 0l2.847 2.9c.111.117.111.307-.002.424z"
+          fill="#000"
+          transform="translate(-1237 -1201) translate(991 1176) translate(170 20) translate(70) translate(6 6) translate(2 2)"
+        />
+      </svg>
+    </button>
+  </div>
+  <div>
+    <button
+      className="day week bold"
+      onClick={[Function]}
+      type="button"
+    >
+      Su
+    </button>
+    <button
+      className="day week bold"
+      onClick={[Function]}
+      type="button"
+    >
+      Mo
+    </button>
+    <button
+      className="day week bold"
+      onClick={[Function]}
+      type="button"
+    >
+      Tu
+    </button>
+    <button
+      className="day week bold"
+      onClick={[Function]}
+      type="button"
+    >
+      We
+    </button>
+    <button
+      className="day week bold"
+      onClick={[Function]}
+      type="button"
+    >
+      Th
+    </button>
+    <button
+      className="day week bold"
+      onClick={[Function]}
+      type="button"
+    >
+      Fr
+    </button>
+    <button
+      className="day week bold"
+      onClick={[Function]}
+      type="button"
+    >
+      Sa
+    </button>
+  </div>
+  <div
+    className="calendarDay"
+  >
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      27
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      28
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      29
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      30
+    </button>
+    <button
+      className="day today"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      10
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      11
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      12
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      13
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      14
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      15
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      16
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      17
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      18
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      19
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      20
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      21
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      22
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      23
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      24
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      25
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      26
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      27
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      28
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      29
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      30
+    </button>
+    <button
+      className="day normal"
+      onClick={[Function]}
+      type="button"
+    >
+      31
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="day inActive"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+  </div>
+</div>
+`;

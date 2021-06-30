@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Day from './index';
+import Icon from './index';
 
-test('render Day correctly', () => {
+test('render Icon correctly', () => {
 	const component = renderer
 		.create(
-			<Day />,
+			<Icon />,
 		)
 		.toJSON();
 	expect(component).toMatchSnapshot();

@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Day from './index';
+import CalendarMonth from './index';
 
-test('render Day correctly', () => {
+test('render CalendarMonth correctly', () => {
 	const component = renderer
 		.create(
-			<Day />,
+			<CalendarMonth />,
 		)
 		.toJSON();
 	expect(component).toMatchSnapshot();
