@@ -30,19 +30,22 @@ export const initialState = {
 	},
 };
 
-export const dateChange = createAction('DATE_CHANGE', date => (date));
-
-export const updateCalendar = createAction('UPDATE_CALENDAR');
-
+/* action without saga */
 export const switchViewType = createAction('SWITCH_VIEW_TYPE', viewType => (viewType));
-
-export const switchDaysList = createAction('SWITCH_DAYS_LIST', date => (date));
 
 export const switchYearList = createAction('SWITCH_YEAR_LIST', list => (list));
 
-export const updateCalendarDaysList = createAction('UPDATE_CALENDAR_DAYS_LIST');
+/* action with saga */
+export const dateChange = createAction('DATE_CHANGE', date => (date));
 
 export const openStatus = createAction('OPEN_STATUS', status => (status));
+
+export const switchDaysList = createAction('SWITCH_DAYS_LIST', date => (date));
+
+/* action for saga put */
+export const updateCalendar = createAction('UPDATE_CALENDAR');
+
+export const updateCalendarDaysList = createAction('UPDATE_CALENDAR_DAYS_LIST');
 
 export const resetCalendar = createAction('RESET_CALENDAR');
 
