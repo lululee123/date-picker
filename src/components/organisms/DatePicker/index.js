@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { openStatus, dateChange } from '../../../model/calendar';
 
 import Calendar from '../Calendar';
-import DatePickerInput from '../DatePickerInput';
+import DatePickerInput from '../../molecules/DatePickerInput';
 
 import styles from './index.scss';
 

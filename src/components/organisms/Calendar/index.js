@@ -50,7 +50,10 @@ const Calendar = ({ date, onSelect }) => {
 			)}
 			{viewType === 'month' && (
 				<>
-					<CalendarHeader text={currentYear} onClick={() => dispatch(switchViewType('year'))} />
+					<CalendarHeader
+						text={currentYear}
+						onClick={() => dispatch(switchViewType('year'))}
+					/>
 					<CalendarMonth
 						data={monthList}
 						selected={currentMonth}

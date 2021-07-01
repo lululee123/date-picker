@@ -17,7 +17,6 @@ module.exports = {
 	performance: {
 		hints: false,
 	},
-	presets: [['@babel/preset-env', { targets: { node: 'current' } }]],
 	module: {
 		rules: [
 			{
