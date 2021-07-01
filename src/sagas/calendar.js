@@ -2,8 +2,6 @@ import { put, takeEvery } from 'redux-saga/effects';
 import dayjs from 'dayjs';
 import { calcutaleDays } from '../util/calendarCore';
 
-export const getCalendar = state => state.calendar;
-
 export function* updatecalendar(action) {
 	yield put({
 		type: 'UPDATE_CALENDAR',
