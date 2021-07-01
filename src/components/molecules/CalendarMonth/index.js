@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Day from '../../atoms/Day';
+import Day from 'components/atoms/Day';
 
 import styles from './index.scss';
 

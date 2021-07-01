@@ -17,6 +17,9 @@ module.exports = {
 	performance: {
 		hints: false,
 	},
+	resolve: {
+		modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+	},
 	module: {
 		rules: [
 			{
@@ -45,7 +48,6 @@ module.exports = {
 			},
 		],
 	},
-
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: './src/index.html',

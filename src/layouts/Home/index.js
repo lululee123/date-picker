@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-import DatePicker from '../../components/organisms/DatePicker';
+import DatePicker from 'components/organisms/DatePicker';
 
 import styles from './index.scss';
 

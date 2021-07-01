@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import dayjs from 'dayjs';
 
-import Day from '../../atoms/Day';
+import Day from 'components/atoms/Day';
 
 import styles from './index.scss';
 

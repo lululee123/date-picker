@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 
-import Icon from '../../atoms/Icon';
+import Icon from 'components/atoms/Icon';
 
 import styles from './index.scss';
 

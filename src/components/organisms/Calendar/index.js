@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import dayjs from 'dayjs';
 
-import { switchViewType, switchDaysList, switchYearList } from '../../../model/calendar';
+import { switchViewType, switchDaysList, switchYearList } from 'model/calendar';
 
-import CalendarHeader from '../../molecules/CalendarHeader';
-import CalendarDay from '../../molecules/CalendarDay';
-import CalendarWeek from '../../molecules/CalendarWeek';
-import CalendarMonth from '../../molecules/CalendarMonth';
-import CalendarYear from '../../molecules/CalendarYear';
+import CalendarHeader from 'components/molecules/CalendarHeader';
+import CalendarDay from 'components/molecules/CalendarDay';
+import CalendarWeek from 'components/molecules/CalendarWeek';
+import CalendarMonth from 'components/molecules/CalendarMonth';
+import CalendarYear from 'components/molecules/CalendarYear';
 
 import styles from './index.scss';
 

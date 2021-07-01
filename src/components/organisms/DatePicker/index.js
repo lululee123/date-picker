@@ -4,10 +4,10 @@ import classnames from 'classnames';
 
 import { useSelector, useDispatch } from 'react-redux';
 
-import { openStatus, dateChange } from '../../../model/calendar';
+import { openStatus, dateChange } from 'model/calendar';
 
+import DatePickerInput from 'components/molecules/DatePickerInput';
 import Calendar from '../Calendar';
-import DatePickerInput from '../../molecules/DatePickerInput';
 
 import styles from './index.scss';
 

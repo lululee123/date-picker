@@ -1,6 +1,6 @@
 import { createAction, handleActions } from 'redux-actions';
 import dayjs from 'dayjs';
-import { calcutaleDays } from '../util/calendarCore';
+import { calcutaleDays } from 'util/calendarCore';
 
 export const initialState = {
 	value: '2021-07-02',

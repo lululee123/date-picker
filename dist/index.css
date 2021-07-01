@@ -1,5 +1,7 @@
 .index__icon___zUhpZ{padding:5px;width:30px;height:30px}
 
+.index__datePickerInput___1yFBR .index__calendarInput___1CvbJ{display:block;width:100%;height:auto;line-height:inherit;padding:5px 12px;padding-left:30px;font-size:13px;color:#222222;border:1px solid #ccc;border-radius:3px;outline:none}.index__datePickerInput___1yFBR .index__calendarInput___1CvbJ.index__calendarInputActive___3jjy-{border-color:#0096cc}.index__datePickerInput___1yFBR .index__calendarIcon___1E-kn{position:absolute;left:9px;top:6px;width:14px;height:14px;padding:0}
+
 .index__calendarHeader___3DE3e{display:flex;justify-content:space-between;align-items:center;margin:5px 10px;height:30px}.index__calendarHeader___3DE3e .index__text___29Alk{color:#222;font-weight:bold;font-size:13px;height:20px;width:100%;cursor:pointer}.index__calendarHeader___3DE3e .index__arrow___mMlkb{cursor:pointer}.index__calendarHeader___3DE3e .index__arrow___mMlkb svg{transform:scale(2)}
 
 .index__day___2gG6-{display:inline-block;text-align:center;width:30px;height:30px;padding:5px;margin:2px;font-size:13px;cursor:pointer}.index__day___2gG6-.index__active___1gy1Y{color:#fff;background-color:#db3d44;border-radius:50%}.index__day___2gG6-.index__inActive___1CbW-{color:#eee}.index__day___2gG6-.index__today___s2zaF{color:#db3d44}.index__day___2gG6-.index__normal___3pL1T{color:#222}.index__day___2gG6-.index__bold___1BHCi{color:#222;font-weight:bold}
@@ -13,8 +15,6 @@
 .index__year___3WH2I{width:39px;height:39px;margin:10px}
 
 .index__calendar___24n6V{width:250px;padding:0 5px;border:1px solid #ccc}
-
-.index__datePickerInput___1yFBR .index__calendarInput___1CvbJ{display:block;width:100%;height:auto;line-height:inherit;padding:5px 12px;padding-left:30px;font-size:13px;color:#222222;border:1px solid #ccc;border-radius:3px;outline:none}.index__datePickerInput___1yFBR .index__calendarInput___1CvbJ.index__calendarInputActive___3jjy-{border-color:#0096cc}.index__datePickerInput___1yFBR .index__calendarIcon___1E-kn{position:absolute;left:9px;top:6px;width:14px;height:14px;padding:0}
 
 .index__datePicker___xuc6c{width:100%}
 
