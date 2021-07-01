@@ -66,11 +66,11 @@ or
 
 	- model: 存放 reducer 和 action 的地方，使用 Redux Actions 做管理
 
-	+ sagas: saga middlewares
+	+ sagas:
 
-        - calendar: 當日曆元件觸發日期或是視窗更新 action，saga middleware 會找整理好需要更新的欄位後 dispatch(put) 一個 action 去更新 Store
+        - calendar: 當日曆元件觸發日期或是視窗更新 action，saga middleware 會整理好需要更新欄位的資料後 dispatch(put) 一個 action 去更新 Store
 
-  - __test__: 存放測試的地方，使用 jest 測試 `action`, `reducer`, `saga`，除此之外另外搭   `react-test-renderer` 做 components snapshot test （放在各元件資料夾）
+    - util:
+        - calendarCore: 處理日曆日期呈現，使用 dayjs 輔助進行
 
-  - util:
-      - calendarCore: 處理日曆日期呈現，使用 dayjs 輔助進行
+- test: 存放測試的地方，使用 jest 測試 `action`, `reducer`, `saga`，除此之外另外搭   `react-test-renderer` 做 components snapshot test （放在各元件資料夾）
