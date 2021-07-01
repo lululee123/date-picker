@@ -3,6 +3,10 @@ import dayjs from 'dayjs';
 import { calcutaleDays } from 'util/calendarCore';
 
 export function* updatecalendar(action) {
+	if (action.payload === '2021-07-06') {
+		console.log('This is the date our interview is scheduled on!');
+	}
+
 	yield put({
 		type: 'UPDATE_CALENDAR',
 		payload: {

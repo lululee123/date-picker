@@ -1,9 +1,3 @@
-* {
-	box-sizing: border-box;
-	outline: none;
-	touch-action: manipulation;
-}
-
 body {
 	margin: 0;
 	padding: 0;
@@ -27,3 +21,12 @@ button {
 	margin: 0;
 	background-color: transparent;
 }
+
+$border-color: #ccc;
+$date-picker-active: #0096cc;
+$text-color: #222;
+$text-color-red: #db3d44;
+$text-color-inActive: #eee;
+
+$phone: 768px;
+$tablet: 1024px;

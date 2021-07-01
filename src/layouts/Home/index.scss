@@ -6,4 +6,16 @@
     .datePicker {
         width: 120px;
     }
+
+    @media (max-width: $tablet) {
+        .datePicker {
+            width: 100px;
+        }
+    }
+
+    @media (max-width: $phone) {
+        .datePicker {
+            width: 80px;
+        }
+    }
 }

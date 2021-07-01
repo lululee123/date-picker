@@ -10,24 +10,24 @@
 
     &.active {
         color: #fff;
-        background-color: #db3d44;
+        background-color: $text-color-red;
         border-radius: 50%;
     }
 
     &.inActive {
-        color: #eee;
+        color: $text-color-inActive;
     }
 
     &.today {
-        color: #db3d44;
+        color: $text-color-red;
     }
 
     &.normal {
-        color: #222;
+        color: $text-color;
     }
 
     &.bold {
-        color: #222;
+        color: $text-color;
         font-weight: bold;
     }
 }

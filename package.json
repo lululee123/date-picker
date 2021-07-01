@@ -48,6 +48,7 @@
     "jest": "^27.0.6",
     "mini-css-extract-plugin": "^1.6.2",
     "sass-loader": "^12.1.0",
+    "sass-resources-loader": "^2.2.3",
     "style-loader": "^3.0.0",
     "webpack": "^5.41.1",
     "webpack-cli": "^4.7.2",
@@ -58,7 +59,14 @@
       "\\.(css|less|scss|sass)$": "identity-obj-proxy"
     },
     "testEnvironment": "jsdom",
-    "moduleFileExtensions": ["js", "jsx"],
-    "moduleDirectories": ["node_modules", "bower_components", "src"]
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "bower_components",
+      "src"
+    ]
   }
 }
