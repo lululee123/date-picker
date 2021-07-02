@@ -68,5 +68,6 @@
       "bower_components",
       "src"
     ]
-  }
+  },
+  "browserslist": "> 1%, IE 10"
 }

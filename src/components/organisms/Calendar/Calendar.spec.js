@@ -10,7 +10,7 @@ test('render Calendar correctly', () => {
 	const component = renderer
 		.create(
 			<Provider store={store}>
-				<Calendar />
+				<Calendar date="2021-07-01" />
 			</Provider>,
 		)
 		.toJSON();

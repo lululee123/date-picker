@@ -146,14 +146,14 @@ exports[`render Calendar correctly 1`] = `
       30
     </button>
     <button
-      className="day today"
+      className="day active"
       onClick={[Function]}
       type="button"
     >
       1
     </button>
     <button
-      className="day normal"
+      className="day today"
       onClick={[Function]}
       type="button"
     >
