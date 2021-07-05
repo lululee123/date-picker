@@ -1,4 +1,4 @@
-# Trend Micro Date Picker Homework
+# Date Picker with Redux Saga
 
 ## 簡介
 
@@ -6,7 +6,7 @@
 
 ## 資源介紹
 
-根據 PDF 提供指示，使用以下技術、資源進行實作
+使用以下技術、資源進行實作
 
 ##### JS
 * [React](https://reactjs.org/)
@@ -30,7 +30,7 @@ npm install & npm run start
 
 or
 
-資料夾 `dist` 內的  `index.html` 可直接執行打包過後的程式
+這邊可以直接看 demo <https://lululee123.github.io/date-picker/>
 
 ## script
 
@@ -73,4 +73,4 @@ or
     - util:
         - calendarCore: 處理日曆日期呈現，使用 dayjs 輔助進行
 
-- test: 存放測試的地方，使用 jest 測試 `action`, `reducer`, `saga`，除此之外另外搭   `react-test-renderer` 做 components snapshot test （放在各元件資料夾）
+- test: 存放測試的地方，使用 jest 測試 `action`, `reducer`, `saga`，除此之外另外搭 `react-test-renderer` 做 components snapshot test （放在各元件資料夾）
