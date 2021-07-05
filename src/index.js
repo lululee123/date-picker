@@ -13,7 +13,3 @@ ReactDOM.render(
 	</Provider>,
 	document.getElementById('root'),
 );
-
-console.log('%cThanks for review', 'font-size:18px;');
-console.log('%cWish you a nice day', 'font-size:18px;');
-console.log('%c❤️', 'font-size: 30px; color: red;');
